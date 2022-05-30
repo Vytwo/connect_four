@@ -42,7 +42,7 @@ def handleturn(current):
     display(board)
     temp = -1
     player_input = None
-    print(f"\tIt is {current}'s turn")
+    print(f"It is {current}'s turn")
     while player_input not in valid_choices:
         player_input = input("Enter your choice:")
     player_input = int(player_input) - 1
